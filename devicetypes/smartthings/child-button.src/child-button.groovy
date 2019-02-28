@@ -14,9 +14,14 @@
  *
  */
 metadata {
+<<<<<<< HEAD:devicetypes/smartthings/child-button.src/child-button.groovy
 	definition (name: "Child Button", namespace: "smartthings", author: "SmartThings") {
 		capability "Button"
 		capability "Holdable Button"
+=======
+	definition (name: "Smoke Detector Child Device", namespace: "erocm123", author: "Eric Maycock", vid:"generic-smoke") {
+		capability "Smoke Detector"
+>>>>>>> 4540f6f0... Adding vid for new SmartThings app:devicetypes/erocm123/smoke-detector-child-device.src/smoke-detector-child-device.groovy
 		capability "Sensor"
 	}
 
